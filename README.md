@@ -1,5 +1,5 @@
 # crypto-arb
-This is a realtime trading program written in Python that performs pair trades and statistical arbitrage on a wide variety of cryptocurrency exchanges using multiple currencies. It is a limited but functional demo of proprietary trading software used and developed by Epsilon Zero LLP.
+This is a realtime trading program written in Python that performs pair trades and statistical arbitrage on a wide variety of cryptocurrency exchanges using multiple currencies. It is a demo of proprietary trading software used and developed by Epsilon Zero LLP.
 
 **Functionality**
 
