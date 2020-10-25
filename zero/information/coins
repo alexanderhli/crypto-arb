@@ -1,0 +1,60 @@
+exchanges supported by both coinapi and cryptocompare:
+  ['binance', 'bitstamp', 'bittrex', 'poloniex', 'bitfinex', 'kraken', 'huobipro', 'hitbtc', 
+   'btcchina', 'bithumb', 'coinone', 'okex', 'bitmex', 'gemini', 'itbit', 'huobi', 'cryptopia', 
+   'coincheck', 'liqui', 'exmo', 'chbtc', 'yobit', 'bitflyer', 'zaif', 'gateio', 'jubi', 
+   'kucoin', 'lakebtc', 'bleutrade', 'acx', 'tidex', 'bitso', 'livecoin', 'mixcoins', 'virwox', 
+   'qryptos', 'ccex', 'quadrigacx', 'coinnest', 'bitmarket', 'luno', 'btcmarkets', 'btcbox', 
+   'gatecoin', 'bxinth', 'allcoin', 'coinmate', 'btcturk', 'independentreserve', 'coinfloor', 
+   'dsx', 'southxchange', 'btctradeua', 'btcx', 'kuna', 'braziliex', 'fybsg', 'yunbi', 'fybse', 
+   'coingi', 'nova', 'bitlish', 'coinsecure', 'bitbay', 'vbtc', 'xbtce', 'coinexchange', 'anxpro', 
+   'lykke']
+
+coins supported by both coinapi and cryptocompare:
+  'binance': ['ADA', 'BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG',
+              'XMR', 'XRP']
+  'bitfinex': ['BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'ETP', 'IOTA', 'LTC', 'NEO', 'OMG',
+               'REP', 'XMR', 'XRP']
+  'bitflyer': ['BCH', 'ETH']
+  'bitlish': ['BCH', 'BTG', 'DASH', 'ETH', 'LTC', 'XMR', 'XRP']
+  'bitmarket': ['LTC']
+  'bitmex': ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  'bitso': ['BCH', 'ETH', 'LTC', 'XRP']
+  'bitstamp': ['BCH', 'ETH', 'LTC', 'XRP']
+  'bittrex': ['ADA', 'BCC', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR', 'XRP']
+  'bleutrade': ['BCH', 'BTG', 'DASH', 'EOS', 'ETH', 'LTC']
+  'braziliex': ['BCH', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'OMG', 'XMR', 'XRP']
+  'btcmarkets': ['BCH', 'ETC', 'ETH', 'LTC', 'XRP']
+  'btctradeua': ['DASH', 'LTC']
+  'btcturk': ['ETH']
+  'bxinth': ['ETH', 'LTC']
+  'ccex': ['DASH', 'ETC', 'ETH', 'LTC']
+  'coinexchange': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'OMG']
+  'coinmate': ['LTC']
+  'cryptopia': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR']
+  'dsx': ['BCH', 'BTG', 'ETH', 'LTC']
+  'exmo': ['BCH', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'XMR', 'XRP']
+  'gatecoin': ['BCH', 'ETH', 'LTC', 'REP']
+  'gateio': ['ADA', 'BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XMR',
+             'XRP']
+  'gemini': ['ETH']
+  'hitbtc': ['ADA', 'BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'ETP', 'IOTA', 'LTC', 'NEO',
+             'OMG', 'REP', 'XMR', 'XRP']
+  'huobipro': ['ADA', 'BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XRP']
+  'kraken': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'REP', 'XMR', 'XRP']
+  'kucoin': ['BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG']
+  'kuna': ['BCH']
+  'lakebtc': ['BCH', 'ETH', 'LTC', 'XRP']
+  'liqui': ['BCC', 'DASH', 'EOS', 'ETH', 'LTC', 'OMG', 'REP']
+  'livecoin': ['BCH', 'DASH', 'EOS', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR']
+  'luno': ['ETH']
+  'lykke': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'OMG', 'REP']
+  'mixcoins': ['BCH', 'ETH']
+  'okex': ['BCC', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XMR',
+           'XRP']
+  'poloniex': ['BCH', 'DASH', 'ETC', 'ETH', 'LTC', 'OMG', 'REP', 'XMR', 'XRP']
+  'qryptos': ['BCH', 'DASH', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR', 'XRP']
+  'quadrigacx': ['BCH', 'BTG', 'ETH', 'LTC']
+  'southxchange': ['BCH', 'BTG', 'DASH', 'ETH', 'LTC', 'XMR']
+  'tidex': ['BCH', 'DASH', 'EOS', 'ETH', 'LTC', 'OMG']
+  'yobit': ['BCC', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC']
+  'zaif': ['BCH', 'ETH']

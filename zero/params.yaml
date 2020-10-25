@@ -1,0 +1,114 @@
+# Check this each time
+bitmex_exp_code: 'M18'
+bitmex_exp_date: '180629' #options: 180330, 180629
+interval: '5MIN'
+
+# Backtesting
+start_time: '04/01/2018 00:00:00Z'
+end_time: '05/25/2018 00:00:00Z'
+backtest_mode: 'separate'
+window: 400
+imputation_threshold: 0.03
+
+# realtime
+blacklist_periods: 5
+
+# Spread and ratio strategies
+zso: 2
+zsc: 0
+zse: 3.5
+
+# Fiefdom settings
+default_fiefdoms: 2
+fiefdoms:
+  bitmex: 3
+  bitfinex: 6
+  kraken: 3
+
+
+# Usernames to use for exchanges
+exchange_info:
+  binance: 'bennett'
+  bitmex: 'bennett'
+  bittrex: 'yang'
+
+# All coins (long and short)
+coins:
+  'binance': ['ADA', 'BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG',
+              'XMR', 'XRP']
+  'bitfinex': ['BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'ETP', 'IOTA', 'LTC', 'NEO', 'OMG',
+               'REP', 'XMR', 'XRP']
+  'bitflyer': ['BCH', 'ETH']
+  'bitlish': ['BCH', 'BTG', 'DASH', 'ETH', 'LTC', 'XMR', 'XRP']
+  'bitmarket': ['LTC']
+  'bitmex': ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  'bitso': ['BCH', 'ETH', 'LTC', 'XRP']
+  'bitstamp': ['BCH', 'ETH', 'LTC', 'XRP']
+  'bittrex': ['ADA', 'BCC', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR', 'XRP']
+  'bleutrade': ['BCH', 'BTG', 'DASH', 'EOS', 'ETH', 'LTC']
+  'braziliex': ['BCH', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'OMG', 'XMR', 'XRP']
+  'btcmarkets': ['BCH', 'ETC', 'ETH', 'LTC', 'XRP']
+  'btctradeua': ['DASH', 'LTC']
+  'btcturk': ['ETH']
+  'bxinth': ['ETH', 'LTC']
+  'ccex': ['DASH', 'ETC', 'ETH', 'LTC']
+  'coinexchange': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'OMG']
+  'coinmate': ['LTC']
+  'cryptopia': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR']
+  'dsx': ['BCH', 'BTG', 'ETH', 'LTC']
+  'exmo': ['BCH', 'BTG', 'DASH', 'ETC', 'ETH', 'LTC', 'XMR', 'XRP']
+  'gatecoin': ['BCH', 'ETH', 'LTC', 'REP']
+  'gateio': ['ADA', 'BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XMR',
+             'XRP']
+  'gemini': ['ETH']
+  'hitbtc': ['ADA', 'BCH', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'ETP', 'IOTA', 'LTC', 'NEO',
+             'OMG', 'REP', 'XMR', 'XRP']
+  'huobipro': ['ADA', 'BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XRP']
+  'kraken': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'REP', 'XMR', 'XRP']
+  'kucoin': ['BCH', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG']
+  'kuna': ['BCH']
+  'lakebtc': ['BCH', 'ETH', 'LTC', 'XRP']
+  'liqui': ['BCC', 'DASH', 'EOS', 'ETH', 'LTC', 'OMG', 'REP']
+  'livecoin': ['BCH', 'DASH', 'EOS', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR']
+  'luno': ['ETH']
+  'lykke': ['BCH', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC', 'OMG', 'REP']
+  'mixcoins': ['BCH', 'ETH']
+  'okex': ['BCC', 'BTG', 'DASH', 'EDO', 'EOS', 'ETC', 'ETH', 'IOTA', 'LTC', 'NEO', 'OMG', 'XMR',
+           'XRP']
+  'poloniex': ['BCH', 'DASH', 'ETC', 'ETH', 'LTC', 'OMG', 'REP', 'XMR', 'XRP']
+  'qryptos': ['BCH', 'DASH', 'ETC', 'ETH', 'LTC', 'NEO', 'OMG', 'REP', 'XMR', 'XRP']
+  'quadrigacx': ['BCH', 'BTG', 'ETH', 'LTC']
+  'southxchange': ['BCH', 'BTG', 'DASH', 'ETH', 'LTC', 'XMR']
+  'tidex': ['BCH', 'DASH', 'EOS', 'ETH', 'LTC', 'OMG']
+  'yobit': ['BCC', 'BTG', 'DASH', 'EOS', 'ETC', 'ETH', 'LTC']
+  'zaif': ['BCH', 'ETH']
+
+# Coins that can be shorted
+shortable_coins:
+  bitfinex:
+    ['BCH', 'BTG', 'DASH', 'EOS', 'ETP', 'EDO', 'ETC', 'ETH', 'IOTA', 'LTC', 'XMR', 'NEO',
+     'OMG', 'XRP']
+  bitmex:
+    ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  okex:
+    ['ETH']
+  kraken:
+    ['ETH', 'ETC', 'REP', 'XMR']
+
+# Exchanges available on both CoinAPI and ccxt:
+exchanges_supported:
+  ['binance', 'bitstamp', 'bittrex', 'poloniex', 'bitfinex', 'kraken', 'huobipro', 'hitbtc', 
+   'btcchina', 'bithumb', 'coinone', 'okex', 'bitmex', 'gemini', 'itbit', 'huobi', 'cryptopia', 
+   'coincheck', 'liqui', 'exmo', 'chbtc', 'yobit', 'bitflyer', 'zaif', 'gateio', 'jubi', 
+   'kucoin', 'lakebtc', 'bleutrade', 'acx', 'tidex', 'bitso', 'livecoin', 'mixcoins', 'virwox', 
+   'qryptos', 'ccex', 'quadrigacx', 'coinnest', 'bitmarket', 'luno', 'btcmarkets', 'btcbox', 
+   'gatecoin', 'bxinth', 'allcoin', 'coinmate', 'btcturk', 'independentreserve', 'coinfloor', 
+   'dsx', 'southxchange', 'btctradeua', 'btcx', 'kuna', 'braziliex', 'fybsg', 'yunbi', 'fybse', 
+   'coingi', 'nova', 'bitlish', 'coinsecure', 'bitbay', 'vbtc', 'xbtce', 'coinexchange', 'anxpro', 
+   'lykke']
+
+# Phone numbers for Twilio notifications
+redacted
+
+
+

@@ -1,0 +1,65 @@
+# Check these every time
+default_fiefdoms: 2
+fiefdoms:
+  bitmex: 2
+  bitfinex: 6
+  kraken: 2
+zso: 2
+zsc: -2
+zse: 3
+interval: '5MIN'
+strategy: 'ratio_new'
+bitmex_exp_code: 'M18'
+bitmex_exp_date: '180629' # options: 180330, 180629
+
+# Backtesting and historical prices
+start_time: '04/01/2018 00:00:00Z'
+end_time: '05/24/2018 00:00:00Z'
+backtest_mode: 'separate'
+moving_average: 'simple'
+window: 288
+imputation_threshold: 0.04
+fee: 0.0025
+
+# Realtime
+blacklist_periods: 5
+
+# Trader
+exchange_info:
+  binance: 'bennett'
+  bitmex: 'bennett'
+  bittrex: 'yang'
+
+# All coins (long and short)
+coins:
+  binance: ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  bitfinex: ['BCH', 'ETH', 'LTC', 'XRP']
+  bitmex: ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  bittrex: ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+  kraken: ['ETH']
+
+# Coins that can be shorted
+shortable_coins:
+  bitfinex:
+    ['BCH', 'ETH', 'LTC', 'XRP']
+  bitmex:
+    ['ADA', 'BCH', 'ETH', 'LTC', 'XRP']
+
+# Exchanges available on both CoinAPI and ccxt:
+exchanges_supported:
+  ['binance', 'bitstamp', 'bittrex', 'poloniex', 'bitfinex', 'kraken', 'huobipro', 'hitbtc', 
+   'btcchina', 'bithumb', 'coinone', 'okex', 'bitmex', 'gemini', 'itbit', 'huobi', 'cryptopia', 
+   'coincheck', 'liqui', 'exmo', 'chbtc', 'yobit', 'bitflyer', 'zaif', 'gateio', 'jubi', 
+   'kucoin', 'lakebtc', 'bleutrade', 'acx', 'tidex', 'bitso', 'livecoin', 'mixcoins', 'virwox', 
+   'qryptos', 'ccex', 'quadrigacx', 'coinnest', 'bitmarket', 'luno', 'btcmarkets', 'btcbox', 
+   'gatecoin', 'bxinth', 'allcoin', 'coinmate', 'btcturk', 'independentreserve', 'coinfloor', 
+   'dsx', 'southxchange', 'btctradeua', 'btcx', 'kuna', 'braziliex', 'fybsg', 'yunbi', 'fybse', 
+   'coingi', 'nova', 'bitlish', 'coinsecure', 'bitbay', 'vbtc', 'xbtce', 'coinexchange', 'anxpro', 
+   'lykke']
+
+# Phone numbers for Twilio notifications
+sms:
+  redacted
+
+
+
